@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacılar Plastik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="image/logo.png" alt="HPS Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('anasayfa')">Ana Sayfa</a></li>
+                <li><a href="#" onclick="showPage('urunlerimiz')">Ürünlerimiz</a></li>
+                <li><a href="#" onclick="showPage('referanslar')">Referanslar</a></li>
+                <li><a href="#" onclick="showPage('iletisim')">İletişim</a></li>
+                <li><a href="#" onclick="showPage('kurumsal')">Kurumsal</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <main id="content">
+               <!-- Ürün Kategorileri İçin Butonlar -->
+               <div style="text-align: center; margin: 20px;">
+                <button onclick="renderPage('sertProfil')">Sert Profil A</button>
+                <button onclick="renderPage('pvcYumusakFitil')">PVC Yumuşak Fitil B</button>
+                <button onclick="renderPage('polimerCita')">Polimer Çıta C</button>
+                <button onclick="renderPage('seritler')">Şeritler </button>
+                <button onclick="renderPage('teelevha')">Tee Levha </button>
+                <button onclick="renderPage('silte')">Polietilen Levha-Şilte </button>
+            </div>
+            <!-- Ürün Detayları Burada Görünecek -->
+    
+
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/facebook.webp" alt="Facebook"></a>
+            <a href="https://x.com/haclarplastiks1" target="_blank"><img src="image/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/hacilarplastiksanayi/" target="_blank"><img src="image/instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/firmaniz" target="_blank"><img src="image/linkedin.webp" alt="LinkedIn"></a>
+        </div>
+        <div class="footer-text">
+            © Copyright 2018 HACILAR PLASTİK San. Tic.Ltd.Şti. Her Hakkı Saklıdır.
+        </div>
+        <!-- Sol alt köşe için logo -->
+        <div class="logo-bottom">
+            <a href="index.html">
+            <img src="image/logo.png" alt="Logo">
+            </a>
+        </div>
+
+    </footer>
+
+    <div class="header-info">
+        <p>📍 1. Organize Sanayi Bölgesi 41. Cad. No:6 Melikgazi / KAYSERİ</p>
+        <p>✉️ info@hacilarplastik.com.tr 📞 +90 352 322 08 68-69 | +90 552 188 5889</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
